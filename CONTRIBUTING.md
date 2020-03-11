@@ -15,7 +15,7 @@ UIKit3 Laravel Frontend UI package is built using [UIkit](https://www.getuikit.c
 * If you have any questions regarding UIKit3 Laravel Frontend UI, open an [issue](https://gitlab.turkeycreeknetworks.com/cartographr/uikit3-laravel-frontend-ui/issues).
 
 ## Issue
-Ensure the bug was not already reported by searching on GitHub under [issues](https://gitlab.turkeycreeknetworks.com/cartographr/uikit3-laravel-frontend-ui/issues). If you're unable to find an open issue addressing the bug, open a [new issue](https://gitlab.turkeycreeknetworks.com/cartographr/uikit3-laravel-frontend-ui/issues/new).
+Ensure the bug was not already reported by searching on my GitLab under [issues](https://gitlab.turkeycreeknetworks.com/cartographr/uikit3-laravel-frontend-ui/issues). If you're unable to find an open issue addressing the bug, open a [new issue](https://gitlab.turkeycreeknetworks.com/cartographr/uikit3-laravel-frontend-ui/issues/new).
 
 Please pay attention to the following points while opening an issue:
 
