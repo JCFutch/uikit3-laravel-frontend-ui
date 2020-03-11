@@ -1,31 +1,19 @@
-## Project title
-A little info about your project and/ or overview that explains **what** the project is about.
+## UIKit3 Laravel Frontend UI
+The purpose of this package is to install the UIKit3 framework in to the laravel/ui package.
 
 ## Motivation
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
-## Build status
-Build status of continus integration i.e. travis, appveyor etc. Ex. -
-
-[![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)
-
-## Code style
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
-
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+I found that I like the UIKit framework a lot. I know there are others out there that use it and I wanted to give a way for user to add it to their Laravel projects..
 
 ## Screenshots
 Include logo/demo screenshot etc.
 
 ## Tech/framework used
-Ex. -
 
 <b>Built with</b>
-- [Electron](https://electron.atom.io)
+- [UIKit](http://getuikit.com)
 
 ## Features
-What makes your project stand out?
+In Laravel 7, the scaffolding was moved to the laravel/ui package and the options for installing whatever framework I want is limited. Just wanted to make the process a little easier for myself and others who use UIKit.
 
 ## Code Example
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
