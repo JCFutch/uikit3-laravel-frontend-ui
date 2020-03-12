@@ -57,7 +57,7 @@ class UIKit3Preset extends Presets
       }
     });
 
-    copy(__DIR__.'uikit3-stubs/resources/scss/app.scss', resource_path('scss/app.css'));
+    copy(__DIR__.'uikit3-stubs/resources/scss/app.scss', resource_path('scss/app.scss'));
   }
 
   protected static function updateBootstrapping()
@@ -121,7 +121,7 @@ class UIKit3Preset extends Presets
         $filesystem->copyDirectory(__DIR__.'uikit3-stubs/resources/views', resource_path('views'));
 
         collect($filesystem->allFiles(base_path('vendor/laravel/ui/stubs/migrations')))
-        ->each(function (SplFileInfo $file) user ($filesystem) {
+        ->each(function (SplFileInfo $file) use ($filesystem) {
           $filesystem->copy(
             $file->getPathName(),
             database_path('migrations/'.$file->getFilename())
