@@ -14,7 +14,7 @@ require('laravel-mix-purgecss');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .postCss('resources/css/app.css', 'public/css');
+   .postCss('resources/scss/app.scss', 'public/css');
 
 if (mix.inProduction()) {
   mix
