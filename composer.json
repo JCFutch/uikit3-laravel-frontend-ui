@@ -9,13 +9,13 @@
   },
   "autoload": {
     "psr-4": {
-      "UIKit3Preset\\UIKit3Preset\\": "src/"
+      "uikit3-laravel-frontend-ui\\UIKit3Preset\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "UIKit3Preset\\UIKit3Preset\\UIKit3PresetServiceProvider"
+        "uikit3-laravel-frontend-ui\\UIKit3Preset\\UIKit3PresetServiceProvider"
       ]
     }
   }
