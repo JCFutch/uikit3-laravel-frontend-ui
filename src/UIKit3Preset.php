@@ -47,7 +47,7 @@ class UIKit3Preset extends Presets
   protected static function updateStyles()
   {
 
-    tap new(Filesystem, function ($filesystem) {
+    tap (new Filesystem, function ($filesystem) {
       $filesystem->deleteDirectory(resource_path('sass'));
       $filesystem->delete(public_path('js/app.js'));
       $filesystem->delete(public_path('css/app.css'));
@@ -141,7 +141,7 @@ class UIKit3Preset extends Presets
     );
 
   }
-  
+
 }
 
 ?>
