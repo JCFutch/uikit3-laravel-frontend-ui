@@ -78,7 +78,7 @@ class UIKit3Preset extends Presets
 
   }
 
-  protected function static updateWelcomePage()
+  protected static function updateWelcomePage()
   {
 
     (new Filesystem)->delete(resource_path('views/welcome.blade.php'));
