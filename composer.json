@@ -9,7 +9,7 @@
   },
   "autoload": {
     "psr-4": {
-      "cartogrpahr\\UIKit3Preset\\": "src/"
+      "cartographr\\UIKit3Preset\\": "src/"
     }
   },
   "extra": {
