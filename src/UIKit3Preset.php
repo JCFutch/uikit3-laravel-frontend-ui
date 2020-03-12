@@ -109,7 +109,7 @@ class UIKit3Preset extends Presets
   protected static function scaffoldAuth()
   {
 
-    file_put_contents(app_path('Http/Controllers/HomeController.php'), static::compileControllerStub();
+    file_put_contents(app_path('Http/Controllers/HomeController.php'), static::compileControllerStub());
 
     file_put_contents(
       base_path('routes/web.php'),
