@@ -17,7 +17,7 @@ class UIKit3PresetServiceProvider extends ServiceProvider
             $command->info('UIKit3 scaffolding installed successfully.');
 
             if ($command->option('auth')) {
-                TailwindCssPreset::installAuth();
+                UIKit3Preset::installAuth();
 
                 $command->info('UIKit3 auth scaffolding installed successfully.');
             }
