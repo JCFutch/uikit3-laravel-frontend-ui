@@ -9,13 +9,13 @@
   },
   "autoload": {
     "psr-4": {
-      "UIKit3Preset\\": "src/"
+      "cartogrpahr\\UIKit3Preset\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "UIKit3Preset\\UIKit3PresetServiceProvider"
+        "cartographr\\UIKit3Preset\\UIKit3PresetServiceProvider"
       ]
     }
   }
