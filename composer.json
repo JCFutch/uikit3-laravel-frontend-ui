@@ -9,13 +9,13 @@
   },
   "autoload": {
     "psr-4": {
-      "LaravelFrontendPresets\\TailwindCssPreset\\": "src/"
+      "UIKit3Preset\\UIKit3Preset\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "LaravelFrontendPresets\\TailwindCssPreset\\TailwindCssPresetServiceProvider"
+        "UIKit3Preset\\UIKit3Preset\\UIKit3PresetServiceProvider"
       ]
     }
   }
