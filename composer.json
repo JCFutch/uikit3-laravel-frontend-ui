@@ -1,0 +1,22 @@
+{
+  "name": "cartographr/uikit3-laravel-frontend-ui",
+  "description": "Laravel frontend preset for UIKit3",
+  "keywords": ["laravel", "preset", "uikit3"],
+  "license": "MIT",
+  "require": {
+    "laravel/framework": "^7.0",
+    "laravel/ui": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelFrontendPresets\\TailwindCssPreset\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelFrontendPresets\\TailwindCssPreset\\TailwindCssPresetServiceProvider"
+      ]
+    }
+  }
+}
