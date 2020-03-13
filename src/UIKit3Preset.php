@@ -41,7 +41,6 @@ class UIKit3Preset extends Preset
     ],
      Arr::except($packages, [
        'bootstrap',
-       'bootstrap-sass',
        'popper.js',
      ]));
 
