@@ -55,12 +55,12 @@ class UIKit3Preset extends Preset
       $filesystem->delete(public_path('js/app.js'));
       $filesystem->delete(public_path('css/app.css'));
 
-      if(! $filesystem->isDirectory($directory = resource_path('scss'))) {
+      if(! $filesystem->isDirectory($directory = resource_path('sass'))) {
         $filesystem->makeDirectory($directory, 0755, true);
       }
     });
 
-    copy(__DIR__.'/uikit3-stubs/resources/scss/app.scss', resource_path('scss/app.scss'));
+    copy(__DIR__.'/uikit3-stubs/resources/scss/app.scss', resource_path('sass/app.scss'));
   }
 
   protected static function updateBootstrapping()
