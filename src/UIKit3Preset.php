@@ -36,10 +36,15 @@ class UIKit3Preset extends Preset
   {
 
     return array_merge([
-
+      'laravel-mix' => '4.0.14',
+      'uikit' => '^3.2.3'
     ],
      Arr::except($packages, [
-
+       'bootstrap',
+       'bootstrap-sass',
+       'popper.js',
+       'laravel-mix',
+       'jquery',
      ]));
 
   }
