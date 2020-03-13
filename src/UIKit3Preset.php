@@ -60,6 +60,8 @@ class UIKit3Preset extends Preset
     });
 
     copy(__DIR__.'/uikit3-stubs/resources/sass/app.scss', resource_path('sass/app.scss'));
+    copy(__DIR__.'/uikit3-stubs/resources/sass/custom.scss', resource_path('sass/custom.scss'));
+
   }
 
   protected static function updateBootstrapping()
