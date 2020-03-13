@@ -9,7 +9,7 @@ use Illuminate\Filesystem\Filesystem;
 use Laravel\Ui\Presets\Preset;
 use Symfony\Component\Finder\SplFileInfo;
 
-class UIKit3Preset extends Presets
+class UIKit3Preset extends Preset
 {
 
   public static function install()
