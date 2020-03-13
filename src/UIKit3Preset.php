@@ -52,7 +52,7 @@ class UIKit3Preset extends Preset
       $filesystem->delete(public_path('js/app.js'));
       $filesystem->delete(public_path('css/app.css'));
 
-      if(! $filesystem->isDirectory($directory = resource_path('css'))) {
+      if(! $filesystem->isDirectory($directory = resource_path('scss'))) {
         $filesystem->makeDirectory($directory, 0755, true);
       }
     });
