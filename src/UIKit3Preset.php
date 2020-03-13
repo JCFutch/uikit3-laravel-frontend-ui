@@ -57,15 +57,15 @@ class UIKit3Preset extends Preset
       }
     });
 
-    copy(__DIR__.'uikit3-stubs/resources/scss/app.scss', resource_path('scss/app.scss'));
+    copy(__DIR__.'/uikit3-stubs/resources/scss/app.scss', resource_path('scss/app.scss'));
   }
 
   protected static function updateBootstrapping()
   {
 
-    copy(__DIR__.'uikit3-stubs/webkit.mix.js', base_path('webpack.mix.js'));
+    copy(__DIR__.'/uikit3-stubs/webkit.mix.js', base_path('webpack.mix.js'));
 
-    copy(__DIR__.'uikit3-stubs/resources/bootstrap.js', resource_path('js/bootstrap.js'));
+    copy(__DIR__.'/uikit3-stubs/resources/bootstrap.js', resource_path('js/bootstrap.js'));
 
   }
 
@@ -74,7 +74,7 @@ class UIKit3Preset extends Preset
 
     (new Filesystem)->delete(resource_path('views/vendor/paginate'));
 
-    (new Filesystem)->copyDirectory(__DIR__.'uikit3-stubs/resources/views/pagination', resource_path('views/vendor/pagination'));
+    (new Filesystem)->copyDirectory(__DIR__.'/uikit3-stubs/resources/views/pagination', resource_path('views/vendor/pagination'));
 
   }
 
@@ -118,9 +118,9 @@ class UIKit3Preset extends Preset
       );
 
       tap(new Filesystem, function($filesystem) {
-        $filesystem->copyDirectory(__DIR__.'uikit3-stubs/resources/views', resource_path('views'));
+        $filesystem->copyDirectory(__DIR__.'/uikit3-stubs/resources/views', resource_path('views'));
 
-        collect($filesystem->allFiles(base_path('vendor/laravel/ui/stubs/migrations')))
+        collect($filesystem->allFiles(base_path('/vendor/laravel/ui/stubs/migrations')))
         ->each(function (SplFileInfo $file) use ($filesystem) {
           $filesystem->copy(
             $file->getPathName(),
@@ -137,7 +137,7 @@ class UIKit3Preset extends Preset
     return str_replace(
       '{{namespace}}',
       Container::getInstance()->getNameSpace(),
-      file_get_contents(__DIR__.'uikit3-stubs/controllers/HomeController.stub')
+      file_get_contents(__DIR__.'/uikit3-stubs/controllers/HomeController.stub')
     );
 
   }
