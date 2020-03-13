@@ -43,8 +43,6 @@ class UIKit3Preset extends Preset
        'bootstrap',
        'bootstrap-sass',
        'popper.js',
-       'laravel-mix',
-       'jquery',
      ]));
 
   }
@@ -53,7 +51,7 @@ class UIKit3Preset extends Preset
   {
 
     tap (new Filesystem, function ($filesystem) {
-      $filesystem->deleteDirectory(resource_path('sass'));
+      $filesystem->deleteDirectory(resource_path('css'));
       $filesystem->delete(public_path('js/app.js'));
       $filesystem->delete(public_path('css/app.css'));
 
@@ -71,6 +69,7 @@ class UIKit3Preset extends Preset
     copy(__DIR__.'/uikit3-stubs/webpack.mix.js', base_path('webpack.mix.js'));
 
     copy(__DIR__.'/uikit3-stubs/resources/js/bootstrap.js', resource_path('js/bootstrap.js'));
+    copy(__DIR__.'/uikit3-stubs/resources/js/app.js', resource_path('js/app.js'));
 
   }
 
