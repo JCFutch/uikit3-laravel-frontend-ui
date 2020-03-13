@@ -65,7 +65,7 @@ class UIKit3Preset extends Preset
 
     copy(__DIR__.'/uikit3-stubs/webpack.mix.js', base_path('webpack.mix.js'));
 
-    copy(__DIR__.'/uikit3-stubs/resources/bootstrap.js', resource_path('js/bootstrap.js'));
+    copy(__DIR__.'/uikit3-stubs/resources/js/bootstrap.js', resource_path('js/bootstrap.js'));
 
   }
 
