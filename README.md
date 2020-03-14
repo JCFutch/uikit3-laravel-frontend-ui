@@ -5,7 +5,7 @@ The purpose of this package is to install the UIKit3 framework in to the laravel
 I found that I like the UIKit framework a lot. I know there are others out there that use it and I wanted to give a way for user to add it to their Laravel projects..
 
 ## Screenshots
-![image](https://gitlab.turkeycreeknetworks.com/cartographr/project-screenshots/-/blob/master/uikit3-laravel-frontend-ui/welcomepage.png)
+![image](uploads/a3a2cf0800fd027cd470e116edd4c534/Screen_Shot_2020-03-14_at_11.26.36_AM.png)
 
 ## Tech/framework used
 
