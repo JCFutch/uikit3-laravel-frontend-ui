@@ -11,15 +11,17 @@ I found that I like the UIKit framework a lot. I know there are others out there
 
 <b>Built with</b>
 - [UIKit](http://getuikit.com)
+- [Laravel](http://laravel.com)
 
 ## Features
 In Laravel 7, the scaffolding was moved to the laravel/ui package and the options for installing whatever framework I want is limited. Just wanted to make the process a little easier for myself and others who use UIKit.
 
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
-
 ## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
+To install this package - you call it just like you would when installing any of the other presets.
+
+php artisan ui uikit3
+
+This will install all the necessary pieces of the frontend scaffolding.
 
 ## API Reference
 
