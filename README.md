@@ -19,7 +19,7 @@ In Laravel 7, the scaffolding was moved to the laravel/ui package and the option
 ## Installation
 To install this package - you call it just like you would when installing any of the other presets.
 
-php artisan ui uikit3
+    php artisan ui uikit3
 
 This will install all the necessary pieces of the frontend scaffolding.
 
