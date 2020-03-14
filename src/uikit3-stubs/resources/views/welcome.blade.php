@@ -108,7 +108,7 @@
 
 <!-- FOOT -->
 <div class="uk-position-bottom-center uk-position-small">
-  <span class="uk-text-small uk-text-center">© 2020 | <a href="https://gitlab.turkeycreeknetworks.com/cartographr" target=_blank title="Created by Cartographr">Created by Cartographr</a> | Built with <a href="http://getuikit.com" title="Visit UIkit 3 site" target="_blank" data-uk-tooltip><span data-uk-icon="uikit"></span></a></span>
+  <span class="uk-text-small uk-text-center">© 2020 | <a href="https://gitlab.turkeycreeknetworks.com/cartographr" target=_blank title="Crafted by Cartographr">Created by Cartographr</a> | Built with <a href="http://getuikit.com" title="Visit UIkit 3 site" target="_blank" data-uk-tooltip><span data-uk-icon="uikit"></span></a></span>
 </div>
 <!-- /FOOT -->
 
