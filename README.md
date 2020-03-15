@@ -23,12 +23,6 @@ To install this package - you call it just like you would when installing any of
 
 This will install all the necessary pieces of the frontend scaffolding.
 
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-Describe and show how to run the tests with code examples.
 
 ## How to use?
 Since Laravel comes with Composer, we will be using it also. Please make sure it is installed in your development environment.
@@ -49,11 +43,11 @@ Hope you enjoy it!
 Let people know how they can contribute into your project. A [contributing guideline](https://gitlab.turkeycreeknetworks.com/cartographr/uikit3-laravel-frontend-ui/-/blob/master/CONTRIBUTING.md) will be a big plus.
 
 ## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project.
+Giving praise to the guys at [Laravel Frontend Presets](https://github.com/laravel-frontend-presets) for making the things they do.
 
-#### Anything else that seems useful
+Also, the [Laravel](http://laravel.com) team for just having it all together. Framework is awesome.
 
 ## License
-A short snippet describing the license (MIT, Apache etc)
+This software is published with the MIT license.
 
 MIT © [Cartographr]()
