@@ -33,13 +33,13 @@ Describe and show how to run the tests with code examples.
 ## How to use?
 Since Laravel comes with Composer, we will be using it also. Please make sure it is installed in your development environment.
 
-Step 1 - <pre>composer require cartographr/uikit3-laravel-frontend-ui</pre>
+**Step 1** - <pre>composer require cartographr/uikit3-laravel-frontend-ui</pre>
 
-Step 2 - Once the package installs, make sure that it appears in your composer.json file in your Laravel project. If it doesn't, please submit an issue ticket.
+**Step 2** - Once the package installs, make sure that it appears in your composer.json file in your Laravel project. If it doesn't, please submit an issue ticket.
 
-Step 3 - Once you verify it's in your composer.json file, it will install just like the other laravel ui packages. <pre>php artisan ui uikit3</pre>
+**Step 3** - Once you verify it's in your composer.json file, it will install just like the other laravel ui packages. <pre>php artisan ui uikit3</pre>
 
-Step 4 - Once installed, you will be prompted on the CLI to run <pre>npm install && npm run dev</pre>
+**Step 4** - Once installed, you will be prompted on the CLI to run <pre>npm install && npm run dev</pre>
 Once you do that, everything should be ready to go and UIKit should be installed in to your project.
 
 Hope you enjoy it!
