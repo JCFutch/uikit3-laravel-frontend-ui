@@ -24,14 +24,14 @@ class UIKit3Preset extends Preset
 
   }
 
-  /* Work in progress - Need to scaffold auth controllers
+  
   public static function installAuth()
   {
 
     static::scaffoldController();
     static::scaffoldAuth();
 
-  }*/
+  }
 
   protected static function updatePackageArray(array $packages)
   {
