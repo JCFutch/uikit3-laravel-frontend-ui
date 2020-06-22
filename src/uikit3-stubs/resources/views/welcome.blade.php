@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel with UIKit3') }}</title>
+    <title>Laravel with UIKit3</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -87,7 +87,7 @@
 
         <!-- TEXT -->
 <div class="uk-container uk-flex-auto uk-text-center" data-uk-scrollspy="target: > .animate; cls: uk-animation-slide-bottom-small uk-invisible; delay: 300">
-  <h1 class="uk-heading-primary animate uk-invisible laravel-name">{{ config('app.name', 'Laravel') }}</h1>
+  <h1 class="uk-heading-primary animate uk-invisible laravel-name">Laravel with UIKit3</h1>
 
   <div class="uk-width-4-5@m uk-margin-auto animate uk-invisible">
 					<p class="lead">Laravel Framework with UIKit.</p>
@@ -108,7 +108,7 @@
 
 <!-- FOOT -->
 <div class="uk-position-bottom-center uk-position-small">
-  <span class="uk-text-small uk-text-center">© 2020 | <a href="https://gitlab.turkeycreeknetworks.com/cartographr" target=_blank title="Crafted by Cartographr">Created by Cartographr</a> | Built with <a href="http://getuikit.com" title="Visit UIkit 3 site" target="_blank" data-uk-tooltip><span data-uk-icon="uikit"></span></a></span>
+  <span class="uk-text-small uk-text-center">© 2020 | <a href="http://github.com/JCFutch" target=_blank title="Crafted by Cartographr">Crafted by Cartographr</a> | Built with <a href="http://getuikit.com" title="Visit UIkit 3 site" target="_blank" data-uk-tooltip><span data-uk-icon="uikit"></span></a></span>
 </div>
 <!-- /FOOT -->
 

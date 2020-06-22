@@ -17,11 +17,11 @@ class UIKit3PresetServiceProvider extends ServiceProvider
             $command->info('UIKit3 scaffolding installed successfully.');
 
 
-            /*if ($command->option('auth')) {
+            if ($command->option('auth')) {
                 UIKit3Preset::installAuth();
 
                 $command->info('UIKit3 auth scaffolding installed successfully.');
-            }*/
+            }
 
             $command->comment('Please run "npm install && npm run dev" to compile your fresh scaffolding.');
         });

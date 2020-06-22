@@ -24,20 +24,20 @@ class UIKit3Preset extends Preset
 
   }
 
-  /* Work in progress - Need to scaffold auth controllers
+  // Work in progress - Need to scaffold auth controllers
   public static function installAuth()
   {
 
     static::scaffoldController();
     static::scaffoldAuth();
 
-  }*/
+  }
 
   protected static function updatePackageArray(array $packages)
   {
 
     return array_merge([
-      'laravel-mix' => '4.0.14',
+      'laravel-mix' => '^4.0.14',
       'uikit' => '^3.2.3'
     ],
      Arr::except($packages, [
@@ -111,7 +111,7 @@ class UIKit3Preset extends Preset
     ->each(function (SplFileInfo $file) use ($filesystem) {
       $filesystem->copy(
         $file->getPathName(),
-        app_path('Http/Controllers/Auth'.Str::replaceLast('.stub', '.php', $file->getFilename()))
+        app_path('Http/Controllers/Auth/'.Str::replaceLast('.stub', '.php', $file->getFilename()))
       );
     });
 
