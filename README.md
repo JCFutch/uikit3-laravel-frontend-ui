@@ -39,10 +39,6 @@ Once you do that, everything should be ready to go and UIKit should be installed
 
 Hope you enjoy it!
 
-## Contribute
-
-Let people know how they can contribute into your project. A [contributing guideline](https://gitlab.turkeycreeknetworks.com/cartographr/uikit3-laravel-frontend-ui/-/blob/master/CONTRIBUTING.md) will be a big plus.
-
 ## Credits
 Giving praise to the guys at [Laravel Frontend Presets](https://github.com/laravel-frontend-presets) for making the things they do.
 
