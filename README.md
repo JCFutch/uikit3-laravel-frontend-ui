@@ -23,7 +23,6 @@ To install this package - you call it just like you would when installing any of
 
 This will install all the necessary pieces of the frontend scaffolding.
 
-
 ## How to use?
 Since Laravel comes with Composer, we will be using it also. Please make sure it is installed in your development environment.
 
@@ -33,14 +32,12 @@ Since Laravel comes with Composer, we will be using it also. Please make sure it
 
 **Step 3** - Once you verify it's in your composer.json file, it will install just like the other laravel ui packages. <pre>php artisan ui uikit3</pre>
 
+**AUTH** - If you want auth routes, you can run <pre>php artisan ui uikit3 --auth</pre> to generate normal Laravel authentication methods. You have to install the framework piece first using <pre>php artisan ui uikit3</pre> before the auth routes will be generated.
+
 **Step 4** - Once installed, you will be prompted on the CLI to run <pre>npm install && npm run dev</pre>
 Once you do that, everything should be ready to go and UIKit should be installed in to your project.
 
 Hope you enjoy it!
-
-## Contribute
-
-Let people know how they can contribute into your project. A [contributing guideline](https://gitlab.turkeycreeknetworks.com/cartographr/uikit3-laravel-frontend-ui/-/blob/master/CONTRIBUTING.md) will be a big plus.
 
 ## Credits
 Giving praise to the guys at [Laravel Frontend Presets](https://github.com/laravel-frontend-presets) for making the things they do.
