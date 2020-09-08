@@ -46,7 +46,7 @@
      }
      </style>
 
-    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body class="uk-light wrap uk-background-norepeat uk-background-cover uk-background-center-center uk-cover-container uk-background-secondary">
   <img data-srcset="https://picsum.photos/640/700/?image=251 640w,
